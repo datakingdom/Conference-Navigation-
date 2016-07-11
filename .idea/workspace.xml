@@ -11,146 +11,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54b369c8-44d2-40e6-bb3f-14203311f0de" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/edu/pitt/is/HT2015/BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/edu/pitt/is/HT2015/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/pitt/is/HT2015/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/pitt/is/HT2015/R$array.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/pitt/is/HT2015/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/pitt/is/HT2015/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/pitt/is/HT2015/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/pitt/is/HT2015/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/pitt/is/HT2015/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/pitt/is/HT2015/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/pitt/is/HT2015/R.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/AuthorDetail$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/AuthorDetail$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/AuthorDetail$MyListViewAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/AuthorDetail$MyListViewAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/AuthorDetail.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/AuthorDetail.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/Authors$MyListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/Authors$MyListAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/Authors.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/Authors.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/ConferenceInfo.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/ConferenceInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/FirstLaunchUpdate$AsyncUpdate.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/FirstLaunchUpdate$AsyncUpdate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/FirstLaunchUpdate.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/FirstLaunchUpdate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/FriendsDetail.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/FriendsDetail.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/HeaderView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/HeaderView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/KeyNote$ListViewAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/KeyNote$ListViewAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/KeyNote.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/KeyNote.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/KeynoteDetail.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/KeynoteDetail.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/MainInterface$ImageViewAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/MainInterface$ImageViewAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/MainInterface.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/MainInterface.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/MyFriends$MyListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/MyFriends$MyListAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/MyFriends.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/MyFriends.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/MyRecommendedPapers$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/MyRecommendedPapers$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/MyRecommendedPapers$ListViewAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/MyRecommendedPapers$ListViewAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/MyRecommendedPapers.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/MyRecommendedPapers.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/MyScheduledPapers$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/MyScheduledPapers$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/MyScheduledPapers$MyListViewAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/MyScheduledPapers$MyListViewAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/MyScheduledPapers.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/MyScheduledPapers.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/MyStaredPapers$ListViewAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/MyStaredPapers$ListViewAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/MyStaredPapers.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/MyStaredPapers.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/PaperAttending$MyListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/PaperAttending$MyListAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/PaperAttending.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/PaperAttending.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/PaperDetail.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/PaperDetail.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/PaperInSession$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/PaperInSession$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/PaperInSession$ListViewAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/PaperInSession$ListViewAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/PaperInSession.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/PaperInSession.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/PaperInfo$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/PaperInfo$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/PaperInfo.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/PaperInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/PaperSimilar$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/PaperSimilar$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/PaperSimilar$AsyncSimilarList.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/PaperSimilar$AsyncSimilarList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/PaperSimilar$ListViewAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/PaperSimilar$ListViewAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/PaperSimilar.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/PaperSimilar.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/PosterDetail$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/PosterDetail$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/PosterDetail$MyListViewAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/PosterDetail$MyListViewAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/PosterDetail.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/PosterDetail.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/Posters$ListViewAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/Posters$ListViewAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/Posters.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/Posters.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/Proceedings.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/Proceedings.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/ProceedingsByAuthor$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/ProceedingsByAuthor$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/ProceedingsByAuthor$MyListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/ProceedingsByAuthor$MyListAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/ProceedingsByAuthor.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/ProceedingsByAuthor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/ProceedingsByName$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/ProceedingsByName$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/ProceedingsByName$MyListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/ProceedingsByName$MyListAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/ProceedingsByName.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/ProceedingsByName.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/ProceedingsByType$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/ProceedingsByType$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/ProceedingsByType$MyListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/ProceedingsByType$MyListAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/ProceedingsByType.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/ProceedingsByType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/ProgramByDay$MyListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/ProgramByDay$MyListAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/ProgramByDay.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/ProgramByDay.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/Signin.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/Signin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/Signup.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/Signup.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/Tutorials$ListViewAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/Tutorials$ListViewAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/Tutorials.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/Tutorials.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/UpdateOption$AsyncUpdate.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/UpdateOption$AsyncUpdate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/UpdateOption.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/UpdateOption.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/UserDetail.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/UserDetail.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/WorkshopDetail$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/WorkshopDetail$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/WorkshopDetail$MyListViewAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/WorkshopDetail$MyListViewAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/WorkshopDetail.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/WorkshopDetail.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/Workshops$ListViewAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/Workshops$ListViewAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/Workshops.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/Workshops.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/iConference.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/activity/iConference.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_e3de1cd8516b512fc7db609498d95bc3755f09a8.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_e3de1cd8516b512fc7db609498d95bc3755f09a8.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/back1.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/back1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/back2.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/back2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/back1.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/back1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/back2.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/back2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/lint-results-debug-fatal.html" afterPath="$PROJECT_DIR$/app/build/outputs/lint-results-debug-fatal.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/activity/AuthorDetail.java" afterPath="$PROJECT_DIR$/app/src/main/java/activity/AuthorDetail.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/activity/Authors.java" afterPath="$PROJECT_DIR$/app/src/main/java/activity/Authors.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/activity/ConferenceInfo.java" afterPath="$PROJECT_DIR$/app/src/main/java/activity/ConferenceInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/activity/FirstLaunchUpdate.java" afterPath="$PROJECT_DIR$/app/src/main/java/activity/FirstLaunchUpdate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/activity/FriendsDetail.java" afterPath="$PROJECT_DIR$/app/src/main/java/activity/FriendsDetail.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/activity/HeaderView.java" afterPath="$PROJECT_DIR$/app/src/main/java/activity/HeaderView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/activity/KeyNote.java" afterPath="$PROJECT_DIR$/app/src/main/java/activity/KeyNote.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/activity/KeynoteDetail.java" afterPath="$PROJECT_DIR$/app/src/main/java/activity/KeynoteDetail.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/activity/MainInterface.java" afterPath="$PROJECT_DIR$/app/src/main/java/activity/MainInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/activity/MyFriends.java" afterPath="$PROJECT_DIR$/app/src/main/java/activity/MyFriends.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/activity/MyRecommendedPapers.java" afterPath="$PROJECT_DIR$/app/src/main/java/activity/MyRecommendedPapers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/activity/MyScheduledPapers.java" afterPath="$PROJECT_DIR$/app/src/main/java/activity/MyScheduledPapers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/activity/MyStaredPapers.java" afterPath="$PROJECT_DIR$/app/src/main/java/activity/MyStaredPapers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/activity/PaperAttending.java" afterPath="$PROJECT_DIR$/app/src/main/java/activity/PaperAttending.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/activity/PaperDetail.java" afterPath="$PROJECT_DIR$/app/src/main/java/activity/PaperDetail.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/activity/PaperInSession.java" afterPath="$PROJECT_DIR$/app/src/main/java/activity/PaperInSession.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/activity/PaperInfo.java" afterPath="$PROJECT_DIR$/app/src/main/java/activity/PaperInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/activity/PaperSimilar.java" afterPath="$PROJECT_DIR$/app/src/main/java/activity/PaperSimilar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/activity/PosterDetail.java" afterPath="$PROJECT_DIR$/app/src/main/java/activity/PosterDetail.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/activity/Posters.java" afterPath="$PROJECT_DIR$/app/src/main/java/activity/Posters.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/activity/Proceedings.java" afterPath="$PROJECT_DIR$/app/src/main/java/activity/Proceedings.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/activity/ProceedingsByAuthor.java" afterPath="$PROJECT_DIR$/app/src/main/java/activity/ProceedingsByAuthor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/activity/ProceedingsByName.java" afterPath="$PROJECT_DIR$/app/src/main/java/activity/ProceedingsByName.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/activity/ProceedingsByType.java" afterPath="$PROJECT_DIR$/app/src/main/java/activity/ProceedingsByType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/activity/ProgramByDay.java" afterPath="$PROJECT_DIR$/app/src/main/java/activity/ProgramByDay.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/activity/Signin.java" afterPath="$PROJECT_DIR$/app/src/main/java/activity/Signin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/activity/Signup.java" afterPath="$PROJECT_DIR$/app/src/main/java/activity/Signup.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/activity/Tutorials.java" afterPath="$PROJECT_DIR$/app/src/main/java/activity/Tutorials.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/activity/UpdateOption.java" afterPath="$PROJECT_DIR$/app/src/main/java/activity/UpdateOption.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/activity/UserDetail.java" afterPath="$PROJECT_DIR$/app/src/main/java/activity/UserDetail.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/activity/WorkshopDetail.java" afterPath="$PROJECT_DIR$/app/src/main/java/activity/WorkshopDetail.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/activity/Workshops.java" afterPath="$PROJECT_DIR$/app/src/main/java/activity/Workshops.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/activity/iConference.java" afterPath="$PROJECT_DIR$/app/src/main/java/activity/iConference.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-    </list>
+    <list default="true" id="54b369c8-44d2-40e6-bb3f-14203311f0de" name="Default" comment="" />
     <ignored path="HT2016.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -2277,7 +2138,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="-4" width="1201" height="725" extended-state="0" />
+    <frame x="-3" y="-4" width="1201" height="725" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
