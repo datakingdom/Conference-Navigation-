@@ -6,7 +6,7 @@ The app allows to view conference schedule, presented papers, workshops, tutoria
   
 The schedule is being synchronized with the Web version of Conference Navigator @ http://halley.exp.sis.pitt.edu/cn3/conferenceHomePage.php?conferenceID=136
   
-Google play : https://play.google.com/store/apps/details?id=edu.pitt.is.HT2015
+Google play : https://play.google.com/store/apps/details?id=edu.pitt.is.DH2016
 
 Credits: Hong Zhang, Kaimin Zheng, Yijin Wu & PAWS Lab
 

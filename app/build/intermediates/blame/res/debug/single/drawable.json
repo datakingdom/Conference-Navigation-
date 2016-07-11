@@ -44,12 +44,12 @@
         "source": "C:\\Users\\gaow1\\Desktop\\HT2016\\app\\src\\main\\res\\drawable\\poster.png"
     },
     {
-        "merged": "C:\\Users\\gaow1\\Desktop\\HT2016\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\home.png",
-        "source": "C:\\Users\\gaow1\\Desktop\\HT2016\\app\\src\\main\\res\\drawable\\home.png"
-    },
-    {
         "merged": "C:\\Users\\gaowenshuo\\Desktop\\School\\2016 Summer\\HT2015\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\email.png",
         "source": "C:\\Users\\gaowenshuo\\Desktop\\School\\2016 Summer\\HT2015\\app\\src\\main\\res\\drawable\\email.png"
+    },
+    {
+        "merged": "C:\\Users\\gaow1\\Desktop\\HT2016\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\home.png",
+        "source": "C:\\Users\\gaow1\\Desktop\\HT2016\\app\\src\\main\\res\\drawable\\home.png"
     },
     {
         "merged": "C:\\Users\\gaowenshuo\\Desktop\\School\\2016 Summer\\HT2015\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\yes_star.png",
@@ -68,12 +68,12 @@
         "source": "C:\\Users\\gaowenshuo\\Desktop\\School\\2016 Summer\\HT2015\\app\\src\\main\\res\\drawable\\star.png"
     },
     {
-        "merged": "C:\\Users\\gaowenshuo\\Desktop\\School\\2016 Summer\\HT2015\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\share.png",
-        "source": "C:\\Users\\gaowenshuo\\Desktop\\School\\2016 Summer\\HT2015\\app\\src\\main\\res\\drawable\\share.png"
-    },
-    {
         "merged": "C:\\Users\\gaowenshuo\\Desktop\\School\\2016 Summer\\HT2015\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\back.png",
         "source": "C:\\Users\\gaowenshuo\\Desktop\\School\\2016 Summer\\HT2015\\app\\src\\main\\res\\drawable\\back.png"
+    },
+    {
+        "merged": "C:\\Users\\gaowenshuo\\Desktop\\School\\2016 Summer\\HT2015\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\share.png",
+        "source": "C:\\Users\\gaowenshuo\\Desktop\\School\\2016 Summer\\HT2015\\app\\src\\main\\res\\drawable\\share.png"
     },
     {
         "merged": "C:\\Users\\gaowenshuo\\Desktop\\School\\2016 Summer\\HT2015\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\about.png",
@@ -148,12 +148,12 @@
         "source": "C:\\Users\\gaow1\\Desktop\\HT2016\\app\\src\\main\\res\\drawable\\back.png"
     },
     {
-        "merged": "C:\\Users\\gaowenshuo\\Desktop\\School\\2016 Summer\\HT2015\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\accept.png",
-        "source": "C:\\Users\\gaowenshuo\\Desktop\\School\\2016 Summer\\HT2015\\app\\src\\main\\res\\drawable\\accept.png"
-    },
-    {
         "merged": "C:\\Users\\gaow1\\Desktop\\HT2016\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\proceedings.png",
         "source": "C:\\Users\\gaow1\\Desktop\\HT2016\\app\\src\\main\\res\\drawable\\proceedings.png"
+    },
+    {
+        "merged": "C:\\Users\\gaowenshuo\\Desktop\\School\\2016 Summer\\HT2015\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\accept.png",
+        "source": "C:\\Users\\gaowenshuo\\Desktop\\School\\2016 Summer\\HT2015\\app\\src\\main\\res\\drawable\\accept.png"
     },
     {
         "merged": "C:\\Users\\gaow1\\Desktop\\HT2016\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\session.png",
