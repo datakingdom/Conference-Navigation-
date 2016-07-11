@@ -40,8 +40,8 @@ public class ProgramByDay extends Activity {
     private final int MENU_RECOMMEND = Menu.FIRST + 4;
     private int date;
     private DBAdapter db;
-    private ArrayList<Session> sessions1, sessions2, sessions3, sessions4, sessions5, sessions6, sessions7, sessions8;
-    private ListView day1lv, day2lv, day3lv, day4lv, day5lv, day6lv, day7lv, day8lv;
+    private ArrayList<Session> sessions1, sessions2, sessions3, sessions4, sessions5, sessions6;
+    private ListView day1lv, day2lv, day3lv, day4lv, day5lv, day6lv;
     private String sessionDate;
     private float mPosX, mPosY, mCurPosX, mCurPosY;
     private TabHost host;
@@ -71,7 +71,7 @@ public class ProgramByDay extends Activity {
                         } else if (mCurPosX - mPosX < 0
                                 && (Math.abs(mCurPosX - mPosX) > 135)) {
                             //scroll to right
-                            int TagCount = 5;
+                            int TagCount = 6;
                             int index = host.getCurrentTab();
                             if (index != TagCount - 1) {
                                 host.setCurrentTab(index + 1);
@@ -120,7 +120,8 @@ public class ProgramByDay extends Activity {
         System.out.println(R.id.day3);
         day4lv = (ListView) findViewById(R.id.day4);
         System.out.println(R.id.day4);
-//        day5lv = (ListView) findViewById(R.id.day5);
+        day5lv = (ListView) findViewById(R.id.day5);
+        day6lv = (ListView) findViewById(R.id.day6);
 
         // Set up the tabs
         host = (TabHost) findViewById(R.id.tabdates);
@@ -128,33 +129,39 @@ public class ProgramByDay extends Activity {
 
         //1st day tab
         TabSpec day1 = host.newTabSpec("day1");
-        day1.setIndicator("Tue, Sept.1");
+        day1.setIndicator("Mon, Monday, July.11");
         day1.setContent(R.id.day1);
         host.addTab(day1);
 
         //2nd day tab
         TabSpec day2 = host.newTabSpec("day2");
-        day2.setIndicator("Wed, Sept.2");
+        day2.setIndicator("Tue, Tuesday, July.12");
         day2.setContent(R.id.day2);
         host.addTab(day2);
 
         // 3rd day tab
         TabSpec day3 = host.newTabSpec("day3");
-        day3.setIndicator("Thu, Sept.3");
+        day3.setIndicator("Wed, July.13");
         day3.setContent(R.id.day3);
         host.addTab(day3);
 
         // 4th day tab
         TabSpec day4 = host.newTabSpec("day4");
-        day4.setIndicator("Fri, Sept.4");
+        day4.setIndicator("Thu, July.14");
         day4.setContent(R.id.day4);
         host.addTab(day4);
 
-        //5th day tab
-//        TabSpec day5 = host.newTabSpec("day5");
-//        day5.setIndicator("Fri, Jul.3");
-//        day5.setContent(R.id.day5);
-//        host.addTab(day5);
+//        5th day tab
+        TabSpec day5 = host.newTabSpec("day5");
+        day5.setIndicator("Fri, July.15");
+        day5.setContent(R.id.day5);
+        host.addTab(day5);
+
+//        6h day tab
+        TabSpec day6 = host.newTabSpec("day6");
+        day6.setIndicator("Sat, July.16");
+        day6.setContent(R.id.day6);
+        host.addTab(day6);
 
         /* set the tab width */
         TabWidget tabWidget = host.getTabWidget();
@@ -211,17 +218,24 @@ public class ProgramByDay extends Activity {
         day4lv.setOnItemClickListener(adapter4);
 
         //5th day
-//        sessions5 = new ArrayList<Session>();
-//        sessions5 = getSession("5");
-//        MyListAdapter adapter5 = new MyListAdapter(sessions5);
-//        day5lv.setAdapter(adapter5);
-//        day5lv.setOnItemClickListener(adapter5);
+        sessions5 = new ArrayList<Session>();
+        sessions5 = getSession("5");
+        MyListAdapter adapter5 = new MyListAdapter(sessions5);
+        day5lv.setAdapter(adapter5);
+        day5lv.setOnItemClickListener(adapter5);
+
+        sessions6 = new ArrayList<Session>();
+        sessions6 = getSession("6");
+        MyListAdapter adapter6 = new MyListAdapter(sessions6);
+        day6lv.setAdapter(adapter6);
+        day6lv.setOnItemClickListener(adapter6);
 
         setGestureListener(day1lv);
         setGestureListener(day2lv);
         setGestureListener(day3lv);
         setGestureListener(day4lv);
-//        setGestureListener(day5lv);
+        setGestureListener(day5lv);
+        setGestureListener(day6lv);
     }
 
     @Override

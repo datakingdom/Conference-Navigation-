@@ -40,7 +40,7 @@
         android:layout_below="@+id/FrameLayout01"
         android:background="@drawable/roundrectshape"
         android:gravity="left"
-        android:text="HT 2015"
+        android:text="CN 2016"
         android:textColor="@drawable/Black">
     </TextView>
 
@@ -62,7 +62,7 @@
         android:layout_below="@id/GridView01"
         android:background="@drawable/roundrectshape"
         android:gravity="left"
-        android:text="My HT 2015"
+        android:text="My CN 2016"
         android:textColor="@drawable/Black">
     </TextView>
 

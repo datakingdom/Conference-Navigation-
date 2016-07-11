@@ -11,15 +11,19 @@ public class DateUtil {
 
     static {
         Datetrans = new Hashtable<String, String>();
-        Datetrans.put("2015-09-01", "Tuesday, Sept.1");
-        Datetrans.put("2015-09-02", "Wednesday, Sept.2");
-        Datetrans.put("2015-09-03", "Thursday, Sept.3");
-        Datetrans.put("2015-09-04", "Friday, Sept.4");
+        Datetrans.put("2016-07-11", "Monday, July.11");
+        Datetrans.put("2016-07-12", "Tuesday, July.12");
+        Datetrans.put("2016-07-13", "Wednesday, July.13");
+        Datetrans.put("2016-07-14", "Thursday, July.14");
+        Datetrans.put("2016-07-15", "Friday, July.15");
+        Datetrans.put("2016-07-16", "Saturday, July.16");
 
         Dtrans = new Hashtable<String, String>();
-        Dtrans.put("2015-09-01", "1");
-        Dtrans.put("2015-09-02", "2");
-        Dtrans.put("2015-09-03", "3");
-        Dtrans.put("2015-09-04", "4");
+        Dtrans.put("2016-07-11", "1");
+        Dtrans.put("2016-07-12", "2");
+        Dtrans.put("2016-07-13", "3");
+        Dtrans.put("2016-07-14", "4");
+        Dtrans.put("2016-07-15", "5");
+        Dtrans.put("2016-07-16", "6");
     }
 }

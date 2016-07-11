@@ -107,18 +107,31 @@
                     android:footerDividersEnabled="true">
                 </ExpandableListView>
 
-                <!--<ExpandableListView-->
-                    <!--android:id="@+id/day5"-->
-                    <!--android:layout_width="fill_parent"-->
-                    <!--android:layout_height="fill_parent"-->
-                    <!--android:layout_weight="1"-->
-                    <!--android:background="@drawable/White"-->
-                    <!--android:choiceMode="singleChoice"-->
-                    <!--android:clickable="true"-->
-                    <!--android:drawSelectorOnTop="false"-->
-                    <!--android:fastScrollEnabled="true"-->
-                    <!--android:footerDividersEnabled="true">-->
-                <!--</ExpandableListView>-->
+                <ExpandableListView
+                    android:id="@+id/day5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/White"
+                    android:choiceMode="singleChoice"
+                    android:clickable="true"
+                    android:drawSelectorOnTop="false"
+                    android:fastScrollEnabled="true"
+                    android:footerDividersEnabled="true">
+                </ExpandableListView>
+
+                <ExpandableListView
+                    android:id="@+id/day6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/White"
+                    android:choiceMode="singleChoice"
+                    android:clickable="true"
+                    android:drawSelectorOnTop="false"
+                    android:fastScrollEnabled="true"
+                    android:footerDividersEnabled="true">
+                </ExpandableListView>
             </FrameLayout>
         </LinearLayout>
     </TabHost>

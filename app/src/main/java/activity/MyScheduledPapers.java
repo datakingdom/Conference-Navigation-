@@ -53,9 +53,9 @@ public class MyScheduledPapers extends Activity implements Runnable {
     private final int MENU_RECOMMEND = Menu.FIRST + 4;
     private int date;
     private DBAdapter db;
-    private ArrayList<Session> sessions1, sessions2, sessions3, sessions4, sessions5;
-    private ArrayList<ArrayList<Paper>> p1, p2, p3, p4, p5;
-    private ExpandableListView day1lv, day2lv, day3lv, day4lv, day5lv;
+    private ArrayList<Session> sessions1, sessions2, sessions3, sessions4, sessions5, sessions6;
+    private ArrayList<ArrayList<Paper>> p1, p2, p3, p4, p5, p6;
+    private ExpandableListView day1lv, day2lv, day3lv, day4lv, day5lv, day6lv;
     private int sday;
     private FrameLayout fl;
     private ImageButton syncB;
@@ -68,7 +68,7 @@ public class MyScheduledPapers extends Activity implements Runnable {
     private String paperID;
     private int Pos, pos;
     private String dayID;
-    private MyListViewAdapter adapter1, adapter2, adapter3, adapter4, adapter5;
+    private MyListViewAdapter adapter1, adapter2, adapter3, adapter4, adapter5, adapter6;
 
     private float mPosX, mPosY, mCurPosX, mCurPosY;
     private TabHost host;
@@ -128,16 +128,26 @@ public class MyScheduledPapers extends Activity implements Runnable {
                         }
 
                         adapter4.notifyDataSetChanged();
-//                    } else if (dayID == "5") {
-//                        sessions5 = new ArrayList<Session>();
-//                        sessions5 = getSession("5");
-//                        p5 = new ArrayList<ArrayList<Paper>>();
-//                        for (int i = 0; i < sessions5.size(); i++) {
-//                            ArrayList<Paper> p = new ArrayList<Paper>();
-//                            p = getPapersBySessionID(sessions5.get(i).ID);
-//                            p5.add(p);
-//                        }
-//                        adapter5.notifyDataSetChanged();
+                    } else if (dayID == "5") {
+                        sessions5 = new ArrayList<Session>();
+                        sessions5 = getSession("5");
+                        p5 = new ArrayList<ArrayList<Paper>>();
+                        for (int i = 0; i < sessions5.size(); i++) {
+                            ArrayList<Paper> p = new ArrayList<Paper>();
+                            p = getPapersBySessionID(sessions5.get(i).ID);
+                            p5.add(p);
+                        }
+                        adapter5.notifyDataSetChanged();
+                    } else if (dayID == "6") {
+                        sessions6 = new ArrayList<Session>();
+                        sessions6 = getSession("6");
+                        p6 = new ArrayList<ArrayList<Paper>>();
+                        for (int i = 0; i < sessions6.size(); i++) {
+                            ArrayList<Paper> p = new ArrayList<Paper>();
+                            p = getPapersBySessionID(sessions6.get(i).ID);
+                            p6.add(p);
+                        }
+                        adapter6.notifyDataSetChanged();
                     }
                     /*******************/
                     reGene();
@@ -188,16 +198,26 @@ public class MyScheduledPapers extends Activity implements Runnable {
                         }
 
                         adapter4.notifyDataSetChanged();
-//                    } else if (dayID == "5") {
-//                        sessions5 = new ArrayList<Session>();
-//                        sessions5 = getSession("5");
-//                        p5 = new ArrayList<ArrayList<Paper>>();
-//                        for (int i = 0; i < sessions5.size(); i++) {
-//                            ArrayList<Paper> p = new ArrayList<Paper>();
-//                            p = getPapersBySessionID(sessions5.get(i).ID);
-//                            p5.add(p);
-//                        }
-//                        adapter5.notifyDataSetChanged();
+                    } else if (dayID == "5") {
+                        sessions5 = new ArrayList<Session>();
+                        sessions5 = getSession("5");
+                        p5 = new ArrayList<ArrayList<Paper>>();
+                        for (int i = 0; i < sessions5.size(); i++) {
+                            ArrayList<Paper> p = new ArrayList<Paper>();
+                            p = getPapersBySessionID(sessions5.get(i).ID);
+                            p5.add(p);
+                        }
+                        adapter5.notifyDataSetChanged();
+                    } else if (dayID == "6") {
+                        sessions6 = new ArrayList<Session>();
+                        sessions6 = getSession("6");
+                        p6 = new ArrayList<ArrayList<Paper>>();
+                        for (int i = 0; i < sessions6.size(); i++) {
+                            ArrayList<Paper> p = new ArrayList<Paper>();
+                            p = getPapersBySessionID(sessions6.get(i).ID);
+                            p6.add(p);
+                        }
+                        adapter6.notifyDataSetChanged();
                     }
                     /*******************/
                     reGene();
@@ -303,7 +323,8 @@ public class MyScheduledPapers extends Activity implements Runnable {
             day2lv = (ExpandableListView) findViewById(R.id.day2);
             day3lv = (ExpandableListView) findViewById(R.id.day3);
             day4lv = (ExpandableListView) findViewById(R.id.day4);
-//            day5lv = (ExpandableListView) findViewById(R.id.day5);
+            day5lv = (ExpandableListView) findViewById(R.id.day5);
+            day6lv = (ExpandableListView) findViewById(R.id.day6);
 
             // Set up the tabs
             host = (TabHost) findViewById(R.id.tabdates);
@@ -312,33 +333,38 @@ public class MyScheduledPapers extends Activity implements Runnable {
 
             //1st day tab
             TabSpec day1 = host.newTabSpec("day1");
-            day1.setIndicator("Tue, Sept.1");
+            day1.setIndicator("Mon, July.11");
             day1.setContent(R.id.day1);
             host.addTab(day1);
 
             //2nd day tab
             TabSpec day2 = host.newTabSpec("day2");
-            day2.setIndicator("Wed, Sept.2");
+            day2.setIndicator("Tue, July.12");
             day2.setContent(R.id.day2);
             host.addTab(day2);
 
             // 3rd day tab
             TabSpec day3 = host.newTabSpec("day3");
-            day3.setIndicator("Thu, Sept.3");
+            day3.setIndicator("Wed, July.13");
             day3.setContent(R.id.day3);
             host.addTab(day3);
 
             // 4th day tab
             TabSpec day4 = host.newTabSpec("day4");
-            day4.setIndicator("Fri, Sept.4");
+            day4.setIndicator("Thu, July.14");
             day4.setContent(R.id.day4);
             host.addTab(day4);
 
             //5th day tab
-//            TabSpec day5 = host.newTabSpec("day5");
-//            day5.setIndicator("Fri, July.3");
-//            day5.setContent(R.id.day5);
-//            host.addTab(day5);
+            TabSpec day5 = host.newTabSpec("day5");
+            day5.setIndicator("Fri, July.15");
+            day5.setContent(R.id.day5);
+            host.addTab(day5);
+
+            TabSpec day6 = host.newTabSpec("day6");
+            day6.setIndicator("Sat, July.16");
+            day6.setContent(R.id.day6);
+            host.addTab(day6);
 
             reGene();
             Changetab(sday);
@@ -346,7 +372,8 @@ public class MyScheduledPapers extends Activity implements Runnable {
             setGestureListener(day2lv);
             setGestureListener(day3lv);
             setGestureListener(day4lv);
-//            setGestureListener(day5lv);
+            setGestureListener(day5lv);
+            setGestureListener(day6lv);
 
         } else {
             new AlertDialog.Builder(MyScheduledPapers.this)
@@ -475,20 +502,35 @@ public class MyScheduledPapers extends Activity implements Runnable {
         }
 
 
-        //5th day
-//        sessions5 = new ArrayList<Session>();
-//        sessions5 = getSession("5");
-//        p5 = new ArrayList<ArrayList<Paper>>();
-//        for (int i = 0; i < sessions5.size(); i++) {
-//            ArrayList<Paper> p = new ArrayList<Paper>();
-//            p = getPapersBySessionID(sessions5.get(i).ID);
-//            p5.add(p);
-//        }
-//        adapter5 = new MyListViewAdapter(sessions5, p5, "5");
-//        day5lv.setAdapter(adapter5);
-//        for (int i = 0; i < sessions5.size(); i++) {
-//            day5lv.expandGroup(i);
-//        }
+//        5th day
+        sessions5 = new ArrayList<Session>();
+        sessions5 = getSession("5");
+        p5 = new ArrayList<ArrayList<Paper>>();
+        for (int i = 0; i < sessions5.size(); i++) {
+            ArrayList<Paper> p = new ArrayList<Paper>();
+            p = getPapersBySessionID(sessions5.get(i).ID);
+            p5.add(p);
+        }
+        adapter5 = new MyListViewAdapter(sessions5, p5, "5");
+        day5lv.setAdapter(adapter5);
+        for (int i = 0; i < sessions5.size(); i++) {
+            day5lv.expandGroup(i);
+        }
+
+//        6th day
+        sessions6 = new ArrayList<Session>();
+        sessions6 = getSession("6");
+        p6 = new ArrayList<ArrayList<Paper>>();
+        for (int i = 0; i < sessions6.size(); i++) {
+            ArrayList<Paper> p = new ArrayList<Paper>();
+            p = getPapersBySessionID(sessions6.get(i).ID);
+            p6.add(p);
+        }
+        adapter6 = new MyListViewAdapter(sessions6, p6, "6");
+        day6lv.setAdapter(adapter6);
+        for (int i = 0; i < sessions6.size(); i++) {
+            day6lv.expandGroup(i);
+        }
 
     }
 
@@ -506,9 +548,12 @@ public class MyScheduledPapers extends Activity implements Runnable {
             case 4:
                 host.setCurrentTabByTag("day4");
                 break;
-//            case 5:
-//                host.setCurrentTabByTag("day5");
-//                break;
+            case 5:
+                host.setCurrentTabByTag("day5");
+                break;
+            case 6:
+                host.setCurrentTabByTag("day6");
+                break;
             default:
                 Calendar c = Calendar.getInstance();
                 date = c.get(Calendar.DAY_OF_YEAR);
